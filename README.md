@@ -8,6 +8,21 @@ This project was created as part of the **Computer Science Laboratory** course.
 
 ---
 
+## Table of Contents
+
+* [Project Description](#project-description)
+* [Project Structure](#project-structure)
+* [Screenshots of Main Features](#screenshots-of-main-features)
+* [Main Features](#main-features)
+* [Main Data Structures](#main-data-structures)
+* [Data Persistence](#data-persistence)
+* [Relevant Technical Aspects](#relevant-technical-aspects)
+* [Compilation and Execution](#compilation-and-execution)
+* [Testing](#testing)
+* [Final Notes](#final-notes)
+
+---
+
 ## Project Description
 
 The goal of the project is to simulate the main functionalities of an online educational resource sharing platform, supporting two types of users:
