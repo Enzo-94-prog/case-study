@@ -169,10 +169,10 @@ This modular organization allows each component to be developed and maintained i
 
 The project uses data structures defined through `struct` and `enum`, including:
 
-* `utente_t` – user management structure
-* `risorsa_t` – educational resource structure
-* `attivita_t` – activity tracking structure
-* `tipo_risorsa_t` – resource type enumeration (Game, Document, Video)
+* `user_t` – user management structure
+* `resource_t` – educational resource structure
+* `activity_t` – activity tracking structure
+* `resource_type_t` – resource type enumeration (Game, Document, Video)
 
 Symbolic constants are also used to improve readability and maintainability of the code.
 
