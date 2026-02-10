@@ -48,40 +48,14 @@ Each source file manages a specific functional area of the platform, separating 
 
 ```
 main.c
- └── Application entry point
-     Handles menus, navigation and interaction flow
-
 users.c / users.h
- └── User management
-     Registration, login, authentication and account handling
-
 resources.c / resources.h
- └── Resource management
-     Creation, modification, deletion and visualization of educational resources
-
 activity.c / activity.h
- └── Activity tracking
-     Records user interactions (downloads, ratings and usage history)
-
 sorting.c / sorting.h
- └── Ranking and statistics
-     Sorting algorithms and generation of platform leaderboards
-
 utility.c / utility.h
- └── Support functions
-     Input validation, formatting and shared helper procedures
-
 structs_macros.h
- └── Data definitions
-     Structures, enumerations and symbolic constants used across the project
-
 data-files/
- └── Binary data storage
-     Persistent files containing users, resources and activity records
-
 screenshots/
- └── Application interface examples
-     Screens showing the main features of the system
 ```
 
 This modular organization allows each component to be developed and maintained independently, improving readability and reducing coupling between different parts of the program.
@@ -109,8 +83,8 @@ This modular organization allows each component to be developed and maintained i
 ### Adding a Resource
 
 <p align="center">
-  <img src="screenshots/add-resource-step-1.png" width="45%" alt="Add resource - step 1">
-  <img src="screenshots/add-resource-step-2.png" width="45%" alt="Add resource - step 2">
+  <img src="screenshots/add-resource-step-1.png" width="45%" alt="Add resource step 1">
+  <img src="screenshots/add-resource-step-2.png" width="45%" alt="Add resource step 2">
 </p>
 
 ---
@@ -223,7 +197,7 @@ Data access is performed through direct positioning within the files using calcu
 
 ## Compilation and Execution
 
-Compile using **MinGW** (GCC for Windows):
+Compile using **MinGW (GCC for Windows):**
 
 ```bash
 gcc *.c -o case-study
@@ -235,17 +209,13 @@ Run the program:
 ./case-study
 ```
 
-**Note:** make sure MinGW is installed and that its `bin` directory is included in the system PATH. After cloning the repository, these commands allow immediate compilation and execution.
-
-Binary data files are **automatically created at first execution** if they are not present.
-
-Sample data files are already included in the **data-files** folder, allowing immediate use of the application. Test user credentials are provided in the documentation.
+Binary data files are automatically created at first execution if they are not present.
 
 ---
 
 ## Testing
 
-The project was tested using a **structured test plan**, covering:
+The project was tested using a structured test plan covering:
 
 * all main functionalities
 * valid and invalid inputs
@@ -257,11 +227,11 @@ The tests confirmed the correct functioning of the system according to the defin
 
 ## Final Notes
 
-This project represents a **complete case study** demonstrating skills in:
+This project represents a complete case study demonstrating skills in:
 
 * software design
 * memory and file management in C
 * requirements analysis
 * development of structured console applications
 
-Although developed in an academic context, the project was built following an approach close to real software development environments.
+Although developed in an academic context, the project follows an approach close to real software development environments.
