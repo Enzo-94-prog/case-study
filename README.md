@@ -19,6 +19,7 @@ This project was created as part of the **Computer Science Laboratory** course.
 * [Relevant Technical Aspects](#relevant-technical-aspects)
 * [Compilation and Execution](#compilation-and-execution)
 * [Testing](#testing)
+* [Documentation](#documentation)
 * [Final Notes](#final-notes)
 
 ---
@@ -48,14 +49,40 @@ Each source file manages a specific functional area of the platform, separating 
 
 ```
 main.c
+ └── Application entry point
+     Handles menus, navigation and interaction flow
+
 users.c / users.h
+ └── User management
+     Registration, login, authentication and account handling
+
 resources.c / resources.h
+ └── Resource management
+     Creation, modification, deletion and visualization of educational resources
+
 activity.c / activity.h
+ └── Activity tracking
+     Records user interactions (downloads, ratings and usage history)
+
 sorting.c / sorting.h
+ └── Ranking and statistics
+     Sorting algorithms and generation of platform leaderboards
+
 utility.c / utility.h
+ └── Support functions
+     Input validation, formatting and shared helper procedures
+
 structs_macros.h
+ └── Data definitions
+     Structures, enumerations and symbolic constants used across the project
+
 data-files/
+ └── Binary data storage
+     Persistent files containing users, resources and activity records
+
 screenshots/
+ └── Application interface examples
+     Screens showing the main features of the system
 ```
 
 This modular organization allows each component to be developed and maintained independently, improving readability and reducing coupling between different parts of the program.
@@ -211,6 +238,8 @@ Run the program:
 
 Binary data files are automatically created at first execution if they are not present.
 
+Sample data files are already included in the **data-files** folder, allowing immediate use of the application.
+
 ---
 
 ## Testing
@@ -225,6 +254,14 @@ The tests confirmed the correct functioning of the system according to the defin
 
 ---
 
+## Documentation
+
+The complete project documentation is available in PDF format at the following link:
+
+📄 [Case Study Documentation (PDF)](https://github.com/Enzo-94-prog/case-study/blob/main/docs/platform-c-simulation-documentation.pdf?raw=1)
+
+---
+
 ## Final Notes
 
 This project represents a complete case study demonstrating skills in:
@@ -234,4 +271,4 @@ This project represents a complete case study demonstrating skills in:
 * requirements analysis
 * development of structured console applications
 
-Although developed in an academic context, the project follows an approach close to real software development environments.
+Although developed in an academic context, the project was built following an approach close to real software development environments.
