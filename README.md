@@ -211,13 +211,13 @@ Data access is performed through direct positioning within the files using calcu
 Compile using **MinGW** (GCC for Windows):
 
 ```bash
-gcc main.c -o piattaforma
+gcc *.c -o case-study
 ```
 
 Run the program:
 
 ```bash
-./piattaforma
+./case-study
 ```
 
 **Note:** make sure MinGW is installed and that its `bin` directory is included in the system PATH. After cloning the repository, these commands allow immediate compilation and execution.
