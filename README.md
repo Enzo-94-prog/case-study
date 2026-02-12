@@ -21,6 +21,7 @@ This project was created as part of the **Computer Science Laboratory** course.
 * [Testing](#testing)
 * [Documentation](#documentation)
 * [Final Notes](#final-notes)
+* [License](#license)
 
 ---
 
@@ -272,3 +273,7 @@ This project represents a complete case study demonstrating skills in:
 * development of structured console applications
 
 Although developed in an academic context, the project was built following an approach close to real software development environments.
+
+---
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
