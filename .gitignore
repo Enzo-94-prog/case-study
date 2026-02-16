@@ -1,0 +1,61 @@
+# =========================
+# Compiled objects
+# =========================
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# Executables (very important)
+a.out
+main
+program
+case-study
+
+# =========================
+# Build folders
+# =========================
+build/
+bin/
+dist/
+
+# =========================
+# Debug / profiling
+# =========================
+*.dSYM/
+*.stackdump
+core
+core.*
+vgcore.*
+
+# =========================
+# Make / CMake
+# =========================
+Makefile~
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# =========================
+# Editor settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+*~
