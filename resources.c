@@ -2,10 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include "structs_macros.h"
-#include "resources.h"
-#include "utility.h"
-#include "activity.h"
-#include "sorting.h"
 
 
 
@@ -786,10 +782,10 @@ void visualizza_risorse_piu_scaricate (FILE *file_risorse)
 		else if (numero_ultima_risorsa == -1)
 			puts("\n\n\t\t       ** Non vi sono resources all'interno della piattaforma. Impossibile eseguirne l'sorting **");
 
-		else if (numero_ultima_risorsa == 0) {
+		else if (numero_ultima_risorsa == 0)
 			rewind(file_ordinamento);
 			fread(&risorsa, sizeof(risorsa_t), 1, file_ordinamento);
-		}
+
 			stampa_risorsa_singola(&risorsa);
 
 			printf("\t\t\t\t\t  ");
