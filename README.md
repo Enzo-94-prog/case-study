@@ -16,6 +16,14 @@ This project was created as part of the **Computer Science Laboratory** course.
 * Developed and tested on **Windows using MinGW**
 * Compatible with Linux/macOS environments (GCC usually available by default)
 
+### Before you compile
+
+Sample binary data files are included in the repository to allow immediate testing of the application.
+
+To use the preloaded users and resources, move the files contained in the **data-files** folder directly into the **root of the repository** (the same directory where `main.c` is located) before running the program.
+
+If you do not move these files, the program will still run correctly: at startup it automatically creates the required binary files, but you will need to manually create users and resources.
+
 ### Compile
 
 ```
@@ -28,10 +36,28 @@ gcc *.c -o case-study
 ./case-study
 ```
 
-Sample data files are already included in the **data-files** folder, allowing immediate use of the application.
-Binary data files are automatically created at first execution if they are not present.
-
 The application will start in the terminal and display the interactive menu.
+
+### Sample credentials (preloaded)
+
+**Creator account**
+
+* username: `creatore1`
+* password: `creatore1`
+
+**User account**
+
+* username: `utilizzatore1`
+* password: `utilizzatore1`
+
+### Example preloaded resource
+
+* type: `gioco`
+* title: `hello world`
+* creator: `creatore1`
+* keywords: `hello world`, `gioco`
+* level: `universita'`
+* discipline: `programmazione`
 
 ---
 
