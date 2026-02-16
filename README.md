@@ -10,24 +10,28 @@ This project was created as part of the **Computer Science Laboratory** course.
 
 ## Quick Start (Build and Run)
 
-Compile the program:
+### Requirements
+
+* C compiler (GCC or Clang)
+* Developed and tested on **Windows using MinGW**
+* Compatible with Linux/macOS environments (GCC usually available by default)
+
+### Compile
 
 ```
 gcc *.c -o case-study
 ```
 
-Run:
+### Run
 
 ```
 ./case-study
 ```
 
-The application will start in the terminal and display the interactive menu.
-
+Sample data files are already included in the **data-files** folder, allowing immediate use of the application.
 Binary data files are automatically created at first execution if they are not present.
 
-Sample data files are already included in the **data-files** folder, allowing immediate use of the application.
-
+The application will start in the terminal and display the interactive menu.
 
 ---
 
