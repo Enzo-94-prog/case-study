@@ -8,6 +8,29 @@ This project was created as part of the **Computer Science Laboratory** course.
 
 ---
 
+## Quick Start (Build and Run)
+
+Compile the program:
+
+```
+gcc *.c -o case-study
+```
+
+Run:
+
+```
+./case-study
+```
+
+The application will start in the terminal and display the interactive menu.
+
+Binary data files are automatically created at first execution if they are not present.
+
+Sample data files are already included in the **data-files** folder, allowing immediate use of the application.
+
+
+---
+
 ## Table of Contents
 
 * [Project Description](#project-description)
@@ -17,7 +40,6 @@ This project was created as part of the **Computer Science Laboratory** course.
 * [Main Data Structures](#main-data-structures)
 * [Data Persistence](#data-persistence)
 * [Relevant Technical Aspects](#relevant-technical-aspects)
-* [Compilation and Execution](#compilation-and-execution)
 * [Testing](#testing)
 * [Documentation](#documentation)
 * [Final Notes](#final-notes)
@@ -220,26 +242,6 @@ Data access is performed through direct positioning within the files using calcu
 * Deterministic identifier generation
 * Sorting of persistent data
 * Tracking interactions between users and resources
-
----
-
-## Compilation and Execution
-
-Compile using **MinGW (GCC for Windows):**
-
-```bash
-gcc *.c -o case-study
-```
-
-Run the program:
-
-```bash
-./case-study
-```
-
-Binary data files are automatically created at first execution if they are not present.
-
-Sample data files are already included in the **data-files** folder, allowing immediate use of the application.
 
 ---
 
