@@ -3,6 +3,8 @@
 
 A console-based application written in **C** that simulates an educational platform for sharing learning resources (games, documents and videos).
 
+![case-study preview](preview/social-preview.png)
+
 The project focuses on **low-level programming**, modular software structure and persistent data management using binary files.
 
 ---
@@ -161,11 +163,19 @@ case-study/
 ├── activity.c / activity.h
 ├── sorting.c / sorting.h
 ├── utility.c / utility.h
+|
 ├── structs_macros.h
 │
 ├── data-files/
 │   └── binary persistent storage
-│
+|
+|── docs/
+|   └── assignment
+|   └── platform-c-simulation-documentation
+|
+├── preview/
+│   └── social_preview.png
+|
 └── screenshots/
     └── terminal interface previews
 ```
